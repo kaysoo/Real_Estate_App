@@ -154,6 +154,6 @@ export async function getPropertiesById({ id }: { id: string }) {
     return result;
   } catch (error) {
     console.error(error);
-    return [];
+    return null;
   }
 }
